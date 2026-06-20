@@ -8,14 +8,14 @@ I build **AI-agent workflows, retrieval/evidence systems, and data-driven decisi
 
 | Signal | Evidence | Link |
 | --- | --- | --- |
-| Multi-agent workflow | ResearchLoop used across 5 projects; APMCM delivered 4 modeling tasks + paper + reproducible package in 74 hours. | [ResearchLoop](https://github.com/124-creator/ResearchLoop) / [Demo](https://124-creator.github.io/ResearchLoop/) |
+| Multi-agent workflow | ResearchLoop used across 5 projects; APMCM delivered 4 modeling tasks + paper + reproducible package in 74 hours. | [ResearchLoop](https://github.com/124-creator/ResearchLoop) |
 | Retrieval + citation verification | ScholarLoop evaluates 597 LitSearch queries, builds evidence cards, and keeps citation checks explicit. | [ScholarLoop](https://github.com/124-creator/ScholarLoop) |
 | Runnable decision demo | GeoMICP-AI ships a live risk-map dashboard with 202 desensitized demo samples, 3D sandbox, Top-K inspection, and carbon comparison. | [Live demo](https://124-creator.github.io/GeoMICP-AI/) |
 | Competition signal | Aftershock forecasting qualification stage tied for 1st; full solution remains private while ranking is active. | Private until competition closes |
 
 ## Featured Projects
 
-### [ResearchLoop](https://github.com/124-creator/ResearchLoop) / [Live Demo](https://124-creator.github.io/ResearchLoop/)
+### [ResearchLoop](https://github.com/124-creator/ResearchLoop)
 Dual-loop multi-agent workflow for research and engineering delivery. It freezes ambiguous goals into specs, maps risks, separates route selection from execution, and requires review gates before final claims.
 
 **Keywords:** AI Agent, multi-agent workflow, prompt contract, Test Oracle, worktree, review gates
