@@ -1,30 +1,48 @@
-﻿# Tian Zhongfei · AI Agent / LLM Application Engineering
+# Tian Zhongfei · AI Agent / LLM Application Engineering
 
-I build practical AI-agent workflows, research automation tools, and data-driven decision systems. My current direction is **AI Agent engineering for research, retrieval, verification, and decision support**.
+I build **AI-agent workflows, retrieval/evidence systems, and data-driven decision demos**. My current focus is turning messy research or competition tasks into auditable pipelines with **Spec Lock, evidence cards, Test Oracle, review gates, and reproducible delivery**.
 
 > Seeking AI Agent / LLM Application / Research Engineering internship roles.
 
-## Featured projects
+## Proof of Work
 
-| Project | What it demonstrates | Tech keywords |
+| Signal | Evidence | Link |
 | --- | --- | --- |
-| [ResearchLoop](https://github.com/124-creator/ResearchLoop) | Dual-loop multi-agent research workflow with route selection, evidence IDs, risk mapping, plan audit, and review gates. | AI Agent, workflow design, prompt engineering, research ops |
-| [ScholarLoop](https://github.com/124-creator/ScholarLoop) | Research-assistant workflow for retrieval, evidence checking, citation verification, and report generation. | RAG, literature review, citation audit, LLM tooling |
-| [GeoMICP-AI](https://github.com/124-creator/GeoMICP-AI) / [Live demo](https://124-creator.github.io/GeoMICP-AI/) | Desensitized geospatial risk-map demo and MICP low-carbon decision dashboard from an intelligent-construction competition project. | React, Vite, Leaflet, ECharts, SHAP-style explainability |
+| Multi-agent workflow | ResearchLoop used across 5 projects; APMCM delivered 4 modeling tasks + paper + reproducible package in 74 hours. | [ResearchLoop](https://github.com/124-creator/ResearchLoop) / [Demo](https://124-creator.github.io/ResearchLoop/) |
+| Retrieval + citation verification | ScholarLoop evaluates 597 LitSearch queries, builds evidence cards, and keeps citation checks explicit. | [ScholarLoop](https://github.com/124-creator/ScholarLoop) |
+| Runnable decision demo | GeoMICP-AI ships a live risk-map dashboard with 202 desensitized demo samples, 3D sandbox, Top-K inspection, and carbon comparison. | [Live demo](https://124-creator.github.io/GeoMICP-AI/) |
+| Competition signal | Aftershock forecasting qualification stage tied for 1st; full solution remains private while ranking is active. | Private until competition closes |
 
-## Competition / research experience
+## Featured Projects
 
-- **Aftershock forecasting international challenge**: qualification stage tied for 1st; full solution remains private while the competition is still active.
-- **Intelligent construction / geospatial ML**: slope flood-damage risk screening, model interpretability, and MICP carbon-reduction decision support.
-- **Mathematical modeling projects**: carbon-price forecasting, emergency planning, and data-driven optimization.
+### [ResearchLoop](https://github.com/124-creator/ResearchLoop) / [Live Demo](https://124-creator.github.io/ResearchLoop/)
+Dual-loop multi-agent workflow for research and engineering delivery. It freezes ambiguous goals into specs, maps risks, separates route selection from execution, and requires review gates before final claims.
 
-## Current focus
+**Keywords:** AI Agent, multi-agent workflow, prompt contract, Test Oracle, worktree, review gates
 
-- Turning repeated research/engineering work into auditable agent workflows.
-- Designing prompt contracts with explicit evidence, risk gates, and review checkpoints.
-- Building small public demos that recruiters can run locally and inspect on GitHub.
+### [ScholarLoop](https://github.com/124-creator/ScholarLoop)
+A trusted academic search and evidence-chain prototype. It combines query decomposition, retrieval ranking, external source checks, evidence cards, and citation verification.
 
-## How to read this profile
+**Keywords:** RAG, BM25, embeddings, Cross-Encoder, OpenAlex, Crossref, citation audit
 
-Public repositories are intentionally sanitized: private datasets, competition submission code, phone numbers, and credentials are not published. Recruiter-facing contact information is kept in the resume PDF.
+### [GeoMICP-AI](https://github.com/124-creator/GeoMICP-AI) / [Live Demo](https://124-creator.github.io/GeoMICP-AI/)
+A desensitized geospatial risk-map demo from an intelligent-construction competition project. It demonstrates a practical React dashboard with risk mapping, 3D sandbox, model explanation, Top-K patrol list, and low-carbon MICP decision support.
 
+**Keywords:** React, TypeScript, Vite, Leaflet, Three.js, ECharts, SHAP-style explainability
+
+## Tech Stack
+
+- **AI Agent / LLM:** OpenAI Codex, Claude Code, prompt engineering, multi-agent orchestration, spec-driven delivery
+- **Retrieval / RAG:** BM25, embeddings, Cross-Encoder, OpenAlex, Crossref, evidence cards, citation verification
+- **Engineering:** Python, pytest, FastAPI / stdlib Web API, React, TypeScript, Vite, Git / Worktree
+- **Modeling:** PyTorch, Scikit-learn, XGBoost, time series validation, SHAP, geospatial decision support
+
+## Current Focus
+
+- Building agent workflows that are easy to audit, reproduce, and hand off.
+- Turning LLM outputs into evidence-linked artifacts rather than unsupported claims.
+- Packaging research projects into recruiter-friendly GitHub repos and live demos.
+
+## Public Boundary
+
+Public repositories are intentionally sanitized. I do not publish private datasets, active competition submission code, real engineering coordinates, phone numbers, credentials, or unpublished full research packages.
