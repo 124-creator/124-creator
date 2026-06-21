@@ -9,7 +9,7 @@ I build **AI-agent workflows, retrieval/evidence systems, and data-driven decisi
 | Signal | Evidence | Link |
 | --- | --- | --- |
 | Multi-agent workflow | ResearchLoop used across 5 projects; APMCM delivered 4 modeling tasks + paper + reproducible package in 74 hours. | [ResearchLoop](https://github.com/124-creator/ResearchLoop) / [V4 Demo](https://124-creator.github.io/ResearchLoop/) |
-| Retrieval + citation verification | ScholarLoop evaluates 597 LitSearch queries, builds evidence cards, and keeps citation checks explicit. | [ScholarLoop](https://github.com/124-creator/ScholarLoop) |
+| Retrieval + citation verification | ScholarLoop evaluates 597 LitSearch queries and ships a click-to-verify evidence-chain demo. | [ScholarLoop](https://github.com/124-creator/ScholarLoop) / [Demo](https://124-creator.github.io/ScholarLoop/) |
 | Runnable decision demo | GeoMICP-AI ships a live risk-map dashboard with 202 desensitized demo samples, 3D sandbox, Top-K inspection, and carbon comparison. | [Live demo](https://124-creator.github.io/GeoMICP-AI/) |
 | Competition signal | Aftershock forecasting qualification stage tied for 1st; full solution remains private while ranking is active. | Private until competition closes |
 
@@ -20,8 +20,8 @@ Dual-loop multi-agent workflow for research and engineering delivery. It freezes
 
 **Keywords:** AI Agent, multi-agent workflow, prompt contract, Test Oracle, worktree, review gates
 
-### [ScholarLoop](https://github.com/124-creator/ScholarLoop)
-A trusted academic search and evidence-chain prototype. It combines query decomposition, retrieval ranking, external source checks, evidence cards, and citation verification.
+### [ScholarLoop](https://github.com/124-creator/ScholarLoop) / [Demo](https://124-creator.github.io/ScholarLoop/)
+A trusted academic search and evidence-chain prototype. Click-to-verify evidence demo: 989 highlightable fields, mismatch = 0, and 120 trace steps with fabrication = 0. It combines query decomposition, retrieval ranking, external source checks, evidence cards, and citation verification.
 
 **Keywords:** RAG, BM25, embeddings, Cross-Encoder, OpenAlex, Crossref, citation audit
 
